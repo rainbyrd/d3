@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GDP 1947-1970</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <div class="container">
+    <div class="hr"><h2>Gross National Product 1947-1970 -  </h2><h2 class="spantxt"><span></span></h2>
+  </div><select id="category" onChange="buildChart()">
+        <option value="gnp">Gross National Product</option>
+        <option value="agriculture">Agriculture</option>
+        <option value="contract_construction">Construction</option>
+        <option value="manufacturing">Manufacturing</option>
+        <option value="mining">Mining</option>
+    </select>
+    <div class="hre">
+        <div class="hrf"><p> This chart was taken from
+      <a href="#"> The Statistical History of the United States, from Colonial Times to the Present </a>.
+      <br> Use the dropdown above to see the "Gross National Product, by Type of Industry, in Current and
+      Constant (1958) Prices (in billlions of dollars)"</p></div>
+    <div id="chart"></div>
+    </div></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.js"></script>
+    <script type="text/javascript" src="sheets.js"></script>
+  <script src="scriptnew.js"></script>
+</body>
+</html>
